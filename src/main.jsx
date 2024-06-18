@@ -4,7 +4,8 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // srtict mode is a wrapper which takes care for the errors in the code
+  <React.StrictMode> 
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
